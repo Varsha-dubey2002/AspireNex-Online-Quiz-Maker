@@ -1,0 +1,11 @@
+.navbar {
+height: 5vh;
+width: 30vw;
+    background: palevioletred;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    justify-content: space-evenly; 
+    margin: auto;
+}
+ 

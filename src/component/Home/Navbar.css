@@ -1,0 +1,80 @@
+.navbar {
+height: 10vh;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+
+}
+.link{
+    text-decoration: none;
+}
+
+.logo{
+    margin-left: 40px;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+}
+.material-icons{
+    font-size: 40px;   
+}
+.Nav_link{
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.signoutlink{
+  color: white;
+}
+span{
+    margin-left: 5px;
+
+}
+span:hover{
+    background: palegoldenrod;
+   border-radius: 10px;
+   width: 100%;
+}
+
+ .Nav_link span{
+    padding-left: 30px;
+   color: black;
+  
+ }
+  
+  .dropdown-content {
+    display: none;
+    border-radius: 10px;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content span {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+  }
+  
+  .dropdown-content span:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  @media (max-width: 768px) {
+    .logo p {
+     font-size: 20px;
+      
+      }
+
+    
+}
